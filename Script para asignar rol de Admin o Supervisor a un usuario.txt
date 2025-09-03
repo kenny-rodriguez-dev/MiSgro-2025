@@ -1,0 +1,3 @@
+UPDATE dbo.Users SET Role='Admin' WHERE Id=1; 
+
+UPDATE dbo.Users SET Role='Supervisor' WHERE Id=1; 

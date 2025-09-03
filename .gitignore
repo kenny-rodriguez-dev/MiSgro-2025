@@ -1,0 +1,26 @@
+# Carpeta de compilación de .NET
+[Bb]in/
+[Oo]bj/
+# Archivos de la solución y del usuario
+*.suo
+*.user
+*.useros
+*.userprefs
+*.log
+# Paquetes NuGet
+packages/
+# Archivos de .NET Core/5/6/7/8/9
+.vs/
+.idea/
+.vscode/
+*.pdb
+*.pidb
+*.vshost.exe
+*.vshost.exe.config
+*.vshost.exe.manifest
+# Archivos de cache
+.tmp/
+.temp/
+# Archivos específicos de tu proyecto
+*.dll
+*.exe
