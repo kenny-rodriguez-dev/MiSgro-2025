@@ -166,11 +166,25 @@ Para ejecutar el proyecto, necesitarás tener instalado:
 
 El frontend estará accesible en `http://localhost:3000`.
 
+---
+
+
+
 \## Estado del Proyecto
 
-Este es un **prototipo de proyecto de portafolio**. Si bien es funcional, está diseñado para demostrar mis habilidades técnicas en el desarrollo web Full-Stack.
+
+
+Este es un \*\*prototipo de proyecto de portafolio\*\*. Si bien es funcional, está diseñado para demostrar mis habilidades técnicas en el desarrollo web Full-Stack.
+
+
 
 \## Autor
 
-* Kenny Rodríguez
+
+
+\* Kenny Rodríguez
+
+
+
+---
 
