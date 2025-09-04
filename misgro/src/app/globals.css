@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    /* Estilos para el modo claro (por defecto) */
+    background-color: #f3f4f6; /* gray-100 */
+    color: #1f2937; /* gray-800 */
+    
+    /* MANCHAS MÁS NOTORIAS: Aumentado el tamaño a 3px y la opacidad a 0.15 */
+    background-image: repeating-radial-gradient(circle, rgba(0, 0, 0, 0.15) 0, rgba(0, 0, 0, 0.15) 2px, transparent 2px, transparent 40px);
+    
+    /* Propiedades comunes */
+    background-size: 40px 40px;
+    background-position: center;
+    background-attachment: fixed; /* Mantiene el fondo fijo durante el scroll */
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+
+  /*
+    Modo oscuro:
+    Cuando <body> tenga la clase "dark-mode",
+    cambia fondo, texto y el color de las manchas.
+  */
+  .dark-mode {
+    background-color: #111827 !important; /* gray-900 */
+    color: #f9fafb !important; /* gray-50 */
+
+    /* MANCHAS MÁS NOTORIAS: Aumentado el tamaño a 3px y la opacidad a 0.15 */
+    background-image: repeating-radial-gradient(circle, rgba(255, 255, 255, 0.15) 0, rgba(255, 255, 255, 0.15) 2px, transparent 2px, transparent 40px) !important;
+  }
+}
