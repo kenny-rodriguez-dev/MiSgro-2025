@@ -1,8 +1,8 @@
-\# MiSgro Ecommerce: Prototipo Full-Stack
+\# MiSgro - Prototipo de Sistema de gestión E-commerce
 
 
 
-Este es un prototipo de un proyecto de comercio electrónico full-stack, construido con \*\*Next.js\*\*, \*\*React\*\* y \*\*ASP.NET Core\*\*. La aplicación demuestra un conjunto de funcionalidades clave para una tienda en línea, incluyendo gestión de productos, autenticación y un panel de análisis.
+Este es un prototipo de un proyecto de comercio electrónico Full-Stack, construido con \*\*Next.js\*\*, \*\*React\*\* y \*\*ASP.NET Core\*\*. La aplicación demuestra un conjunto de funcionalidades clave para una tienda en línea, incluyendo gestión de productos, autenticación y un panel de análisis.
 
 
 
@@ -48,7 +48,7 @@ Este proyecto es un prototipo con el objetivo de demostrar la arquitectura y las
 
 
 
-\#### Frontend
+\#### Front-End
 
 
 
@@ -58,7 +58,7 @@ Este proyecto es un prototipo con el objetivo de demostrar la arquitectura y las
 
 \* \*\*Tailwind CSS:\*\* Para estilos y diseño rápido.
 
-\* \*\*Axios:\*\* Cliente HTTP para la comunicación con la API del backend.
+\* \*\*Axios:\*\* Cliente HTTP para la comunicación con la API del Back-End.
 
 \* \*\*Chart.js y react-chartjs-2:\*\* Para la visualización de datos en el panel de análisis.
 
@@ -68,7 +68,7 @@ Este proyecto es un prototipo con el objetivo de demostrar la arquitectura y las
 
 
 
-\#### Backend
+\#### Back-End
 
 
 
@@ -94,7 +94,7 @@ Este proyecto es un prototipo con el objetivo de demostrar la arquitectura y las
 
 
 
-Para ejecutar el proyecto, necesitarás tener instalado:
+Para ejecutar el proyecto, necesitará tener instalado:
 
 \* Node.js (versión 16.x o superior)
 
@@ -114,29 +114,29 @@ Para ejecutar el proyecto, necesitarás tener instalado:
 
 
 
-\#### 1. Configuración del Backend
+\#### 1. Configuración del Back-End
 
 
 
-1\.  Abre el proyecto del backend (`Proyecto\_ecommerce.sln`) en Visual Studio.
+1\.  Debe abrir el proyecto del Back-End (`Proyecto\_ecommerce.sln`) en Visual Studio.
 
-2\.  Actualiza la cadena de conexión en `appsettings.json` para que apunte a tu base de datos SQL Server.
+2\.  Actualice la cadena de conexión en `appsettings.json` para que apunte a su base de datos SQL Server.
 
-3\.  Crea la estructura de la base de datos ejecutando los scripts SQL proporcionados.
+3\.  Debe crear la estructura de la base de datos ejecutando los scripts SQL proporcionados.
 
-4\.  Configura las credenciales para los servicios de terceros (Google, X, Stripe, correo electrónico) en `appsettings.json`.
+4\.  Configure las credenciales para los servicios de terceros (Google, X, Stripe, correo electrónico) en `appsettings.json`.
 
-5\.  Ejecuta el proyecto del backend. La API se ejecutará en una URL como `https://localhost:7223/api`.
-
-
-
-\#### 2. Configuración del Frontend
+5\.  Ejecute el proyecto del Back-End. La API se ejecutará en una URL como `https://localhost:7223/api`.
 
 
 
-1\.  Abre el proyecto del frontend en tu editor de código preferido.
+\#### 2. Configuración del Front-End
 
-2\.  En el archivo `.env.local`, actualiza las variables de entorno:
+
+
+1\.  Debe abrir el proyecto del Front-End en su editor de código preferido.
+
+2\.  En el archivo `.env.local`, actualice las variables de entorno:
 
 &nbsp;   ```
 
@@ -146,7 +146,7 @@ Para ejecutar el proyecto, necesitarás tener instalado:
 
 &nbsp;   ```
 
-3\.  Instala las dependencias de Node.js:
+3\.  Instale las dependencias de Node.js:
 
 &nbsp;   ```bash
 
@@ -154,7 +154,7 @@ Para ejecutar el proyecto, necesitarás tener instalado:
 
 &nbsp;   ```
 
-4\.  Ejecuta el proyecto de Next.js:
+4\.  Ejecute el proyecto de Next.js:
 
 &nbsp;   ```bash
 
@@ -164,5 +164,29 @@ Para ejecutar el proyecto, necesitarás tener instalado:
 
 
 
-El frontend estará accesible en `http://localhost:3000`.
+El Front-End estará accesible en `http://localhost:3000`.
+
+---
+
+
+
+\## Estado del Proyecto
+
+
+
+Este es un \*\*prototipo de Sistema de gestión E-commerce\*\*. Si bien es funcional, está diseñado para demostrar mis habilidades técnicas en el desarrollo web Full-Stack.
+
+
+
+\## Autor
+
+
+
+\* Kenny Rodríguez
+
+\* https://www.linkedin.com/in/kennyrodriguezm/
+
+
+
+---
 
