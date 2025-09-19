@@ -190,25 +190,3 @@ Este es un \*\*prototipo de Sistema de gestión E-commerce\*\*. Si bien es funci
 
 ---
 
----
-
-
-
-\## Estado del Proyecto
-
-
-
-Este es un \*\*prototipo de proyecto de portafolio\*\*. Si bien es funcional, está diseñado para demostrar mis habilidades técnicas en el desarrollo web Full-Stack.
-
-
-
-\## Autor
-
-
-
-\* Kenny Rodríguez
-
-
-
----
-
